@@ -22,7 +22,7 @@ body {
 }
 @media (orientation: portrait) {
     .container {
-        height: 100vh;
+        /* height: 100vh; */
     }
   }
 
