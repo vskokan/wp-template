@@ -161,6 +161,7 @@ header {
     flex-direction: row;
     align-items: flex-end;
     box-shadow: 0 4px 16px rgba(32,33,36,.26);
+    border-radius: 5px;
 }
 
 .topHeader {
