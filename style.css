@@ -621,3 +621,66 @@ footer {
     color: rgb(247, 224, 17);
 }
 
+.menuMobile {
+    height: 6vw;
+    width: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+}
+
+.burger {
+    width: 100%;
+    height: 1vw;
+    background-color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menuMobile {
+        display: flex;
+    }
+    .signInUp {
+        display: none;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        width: auto;
+        visibility: hidden;
+        display: none;
+    }
+
+    .menuMobile:hover ~ .menu {
+        visibility: visible;
+    }
+    .nav {
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 3vw;
+        height: 10vw;
+    }
+
+    .logoarea {
+        height: 70vw;
+        background-position: center;
+    }
+
+    .searchPanel input {
+        height: 10vw;
+        font-size: 5vw;
+        margin-left: 4vw;
+    }
+
+    .searchPanel {
+        width: 100%;
+    }
+
+    .searchIcon {
+        width: 6vw;
+        height: 6vw;
+        right: 8vw;
+    }
+}
